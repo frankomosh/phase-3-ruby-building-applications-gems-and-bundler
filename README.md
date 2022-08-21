@@ -35,12 +35,12 @@ Gems are primarily hosted by [RubyGems (https://rubygems.org)][ruby gems], a
 free service provided for the Ruby community. You can install gems via the
 terminal:
 
-```console
-$ gem install rspec
+```bash
+gem install rspec
 ```
 
 When you run this command, Ruby locates the gem,
-[looking in RubyGems by default][rspec gem], and if it finds it, downloads and
+[looking in RubyGems by default][rspec gem], and if found, downloads and
 installs the latest version to your computer.
 
 [rspec gem]: https://rubygems.org/gems/rspec
@@ -190,8 +190,8 @@ while in a Ruby application directory. Bundler will install any gems listed.
 Bundler _itself_ is a Ruby gem, which should already be installed on your
 system. You can make sure you have the latest version by running:
 
-```console
-$ gem install bundler
+```sh
+gem install bundler
 ```
 
 [bundler]: https://bundler.io/
